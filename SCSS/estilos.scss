@@ -1,0 +1,35 @@
+@import"header";
+@import"variables";
+@import"bodys";
+
+.titulo{
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        text-align: center;
+        h1{
+            font-size: 80px;
+            font-family:'Times New Roman', Times, serif;
+            color: #480ca8;
+            text-decoration: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
+
+ 
+.mainIndex{
+    margin-top: 30px;
+
+}
+.botonKids{
+align-items: center;    
+}
+.mainProductos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
