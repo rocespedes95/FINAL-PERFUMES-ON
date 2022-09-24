@@ -11,42 +11,16 @@
 
 .mainUbi {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px; }
 
-.presenTacion {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
-  width: 250px;
-  font-weight: bold; }
-  .presenTacion p {
-    color: #432818; }
-  .presenTacion h2 {
-    font-weight: bold; }
-
-.devoLuciones {
-  height: 100px;
-  width: 300px;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 20px;
-  font-size: 20px; }
-  .devoLuciones p {
-    font-weight: bold;
-    color: #432818; }
-  .devoLuciones h2 {
-    font-weight: bold; }
-
-.sPam {
-  height: 100px;
-  width: 300px;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 20px;
-  font-size: 30px;
-  color: #432818;
-  font-weight: bold; }
+.cardUbi {
+  background-color: #a7c957; }
 
 .bodyGeneral {
   background-image: url(/imagenes/fonditoindex.jpg);
@@ -86,7 +60,14 @@
 
 .mainIndex {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold; }
+  .mainIndex h5 {
+    font-weight: bold; }
+
+.cardIndex {
+  background-color: #2ec4b6; }
 
 .mainProductos {
   margin-top: 30px;
@@ -94,7 +75,8 @@
   flex-wrap: wrap;
   margin-bottom: 20px;
   gap: 15px;
-  justify-content: center; }
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .titulo {
   margin-top: 20px; }

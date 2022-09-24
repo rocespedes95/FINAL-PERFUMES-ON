@@ -3,7 +3,16 @@
 .mainIndex{
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    h5{
+        font-weight: bold;
+    }
 
+
+}
+.cardIndex{
+    background-color: #2ec4b6;
 }
 
 .mainProductos{
@@ -13,4 +22,5 @@
     margin-bottom: 20px;
     gap: 15px;
     justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
