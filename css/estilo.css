@@ -9,6 +9,45 @@
   width: 90px;
   object-fit: initial; }
 
+.mainUbi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.presenTacion {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 250px;
+  font-weight: bold; }
+  .presenTacion p {
+    color: #432818; }
+  .presenTacion h2 {
+    font-weight: bold; }
+
+.devoLuciones {
+  height: 100px;
+  width: 300px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  font-size: 20px; }
+  .devoLuciones p {
+    font-weight: bold;
+    color: #432818; }
+  .devoLuciones h2 {
+    font-weight: bold; }
+
+.sPam {
+  height: 100px;
+  width: 300px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  font-size: 30px;
+  color: #432818;
+  font-weight: bold; }
+
 .bodyGeneral {
   background-image: url(/imagenes/fonditoindex.jpg);
   display: flex;
@@ -45,6 +84,18 @@
 .formuLario:hover {
   background-color: #ffafcc; }
 
+.mainIndex {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.mainProductos {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 15px;
+  justify-content: center; }
+
 .titulo {
   margin-top: 20px; }
   .titulo a {
@@ -56,16 +107,3 @@
       color: #480ca8;
       text-decoration: uppercase;
       font-weight: bold; }
-
-.mainIndex {
-  margin-top: 30px; }
-
-.botonKids {
-  align-items: center; }
-
-.mainProductos {
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center; }

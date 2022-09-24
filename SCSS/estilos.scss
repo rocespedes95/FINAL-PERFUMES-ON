@@ -1,8 +1,9 @@
 @import"header";
-@import"variables";
+@import"ubicacion";
 @import"bodys";
 @import"footer";
 @import"contacto";
+@import"main";
 
 .titulo{
     margin-top: 20px;
@@ -21,19 +22,6 @@
 
 
  
-.mainIndex{
-    margin-top: 30px;
 
-}
-.botonKids{
-align-items: center;    
-}
-.mainProductos{
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
 
 

@@ -1,0 +1,53 @@
+
+
+.mainUbi{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+.presenTacion{
+    
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 250px;
+    font-weight: bold;
+    p{
+        color: #432818;
+    }
+    h2{
+        font-weight: bold;
+    }
+}
+
+.devoLuciones{
+    height: 100px;
+    width: 300px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+    font-size: 20px;
+    p{
+        font-weight: bold;
+        color: #432818;
+    }
+    h2{
+        font-weight: bold;
+    }
+}
+
+.sPam{
+    height: 100px;
+    width: 300px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+    font-size: 30px;
+    color: #432818;
+    font-weight: bold;
+
+}
+
