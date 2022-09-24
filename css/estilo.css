@@ -1,8 +1,14 @@
-.naveGador {
-  background-color: #457b9d;
+.heaDer {
+  padding: 0px;
+  background-color: #118ab2;
   border-radius: 15px; }
-  .naveGador nav {
-    background-color: #457b9d; }
+
+.naveGador {
+  border-radius: 15px;
+  background-color: #118ab2;
+  padding: 8px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .logo {
   border-radius: 50%;
@@ -85,7 +91,7 @@
     text-decoration: none;
     text-align: center; }
     .titulo a h1 {
-      font-size: 80px;
+      font-size: 70px;
       font-family: 'Times New Roman', Times, serif;
       color: #480ca8;
       text-decoration: uppercase;
