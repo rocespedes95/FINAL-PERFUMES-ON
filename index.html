@@ -11,6 +11,8 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Css Propio -->
     <link rel="stylesheet" href="css/estilo.css" />
 
@@ -99,7 +101,7 @@
     </header>
 
     <div class="row row-cols-1 row-cols-md-2 g-4 mainIndex">
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <div class="card">
           <img
             src="../imagenes/alien.jpg"
@@ -115,7 +117,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-left">
         <div class="card">
           <img
             src="../imagenes/DG-dolce-garden.jpg"
@@ -131,7 +133,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <div class="card">
           <img
             src="../imagenes/fraganciaArmani.jpg"
@@ -146,7 +148,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-left">
         <div class="card">
           <img
             src="../imagenes/TheScent HugoBoss Banner.jpg"
@@ -213,5 +215,10 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
